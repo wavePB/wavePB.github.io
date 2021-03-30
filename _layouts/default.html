@@ -150,37 +150,27 @@
 </table><br>
 
 
-							<b> What can the wavePB do in the Hide scenario?</b>
-								<li class="answer">  &#9873  Focus voice from a talker in a noisy environment</li>
-								<li class="answer">  &#9873  Focus users' voice input at a online meeting</li>
-								<li class="answer">  &#9873  Focus one speaker's voice while the others talking </li>
-								<li class="answer">  &#9873 And much more... </li>
 
-						</li><br>
-
-
-						<b> What can the wavePB do in the Hide scenario?</b>
-								<li class="answer">  &#9733 Hide your voice in the public </li>
+						<b> What can the wavePB do?</b>
+								<li class="answer">  &#9733 Hide your voice in the public (with only 3 enroll voices)</li>
 								<li class="answer">  &#9733 Prevent your voice be recorded by eavesdropper </li>
 								<li class="answer">  &#9733 Removing your voice passively while keep others recording normally </li>
 								<li class="answer">  &#9733 And much more... </li>
 						</li>
 						<p></p>
 
-						<p></p>
-
 
 					</ul>
 				<h2>WavePB demonstration</h2>
 
-				<h3> WavePB work on a Focus scenario
+				<h3> Hide bob's voice while retaining Alice's voice on Alice's phone.
 					<br>
 					<br>
 					<div style="margin-top=5em;">
 						<table>
 						<tr>
-	    				<td>Joint</td>
-	    				<td>Focused</td>
+	    				<td>Bob and Alice talk simultanously</td>
+	    				<td>Only Alice's voice is kept</td>
 	  				</tr>
 						<tr>
 	    				<td><audio controls>
@@ -193,8 +183,8 @@
 								</audio></td>
 	  				</tr>
 						<tr>
-	    				<td>Conversation</td>
-	    				<td>Focused</td>
+	    				<td>Bob and Alice have a conversation</td>
+	    				<td>Only Alice's voice is kept</td>
 	  				</tr>
 						<tr>
 							<td>
@@ -209,7 +199,7 @@
 								</audio></td>
 						</tr>
 
-						<tr>
+						<!-- <tr>
 	    				<td>Babble</td>
 	    				<td>Focused</td>
 	  				</tr>
@@ -224,15 +214,15 @@
 								  <source src="./assets/babble-focus.wav" type="audio/wav">
 								  Your browser does not support the <code>audio</code> element.
 								</audio></td>
-							<tr>
+							<tr> -->
 						</table>
 							</div>
 					<br>
 					<br>
 
 
-					<h3> WavePB work on a Hide scenario
-						<br>
+					<h3> Hide Bob's voice on Attacker's recorder while retaining others' voice.
+						<!-- <br>
 						<br>
 						<div style="margin-top=5em;">
 							<table>
@@ -265,11 +255,11 @@
 										<source src="./assets/conversation-hide.wav" type="audio/wav">
 										Your browser does not support the <code>audio</code> element.
 									</audio></td>
-							</tr>
+							</tr> -->
 
 							<tr>
-								<td>Babble</td>
-								<td>Hidden</td>
+								<td>Bob's talk in the cloud with human noise</td>
+								<td>Attacker can only record human noises</td>
 							</tr>
 							<tr>
 								<td>
